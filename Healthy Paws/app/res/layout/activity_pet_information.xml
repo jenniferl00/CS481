@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8B0"
+    tools:context=".PetInformationActivity">
+
+    <TextView
+        android:id="@+id/PetInfoText"
+        android:layout_width="164dp"
+        android:layout_height="39dp"
+        android:gravity="center"
+        android:text="Pet Information"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="75dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#A3C5EB"
+        android:text="Edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.21" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        app:layout_constraintTop_toBottomOf="@+id/PetInfoText"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/DisplayName"
+                android:layout_width="360dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:text="Name"
+                tools:layout_editor_absoluteX="123dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/DisplayType"
+                android:layout_width="360dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:background="@color/white"
+                android:text="Animal Type"
+                tools:layout_editor_absoluteX="123dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/DisplayBreed"
+                android:layout_width="360dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:background="@color/white"
+                android:text="Animal Breed"
+                tools:layout_editor_absoluteX="123dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/DisplayDOB"
+                android:layout_width="360dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:background="@color/white"
+                android:text="Date of Birth"
+                tools:layout_editor_absoluteX="123dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/DisplayGender"
+                android:layout_width="360dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:background="@color/white"
+                android:text="Gender"
+                tools:layout_editor_absoluteX="123dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/DisplayWeight"
+                android:layout_width="360dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:background="@color/white"
+                android:text="Weight (lbs)"
+                tools:layout_editor_absoluteX="123dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Button
+                android:id="@+id/AddInfoButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+
+                android:backgroundTint="#A3C5EB"
+                android:text="Add Information"
+                tools:layout_editor_absoluteX="163dp"
+                tools:layout_editor_absoluteY="633dp" />
+
+            <Button
+                android:id="@+id/InfoPageBack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#A3C5EB"
+                android:text="Back"
+                tools:layout_editor_absoluteX="163dp"
+                tools:layout_editor_absoluteY="633dp" />
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

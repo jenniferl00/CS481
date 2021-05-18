@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8B0"
+    tools:context=".MyPetsActivity">
+    />
+
+    <TextView
+        android:id="@+id/MyPetsText"
+        android:layout_width="164dp"
+        android:layout_height="39dp"
+        android:gravity="center"
+        android:text="My Pets"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <Button
+        android:id="@+id/MyPetsPageBack"
+        android:layout_width="179dp"
+        android:layout_height="73dp"
+        android:backgroundTint="#A3C5EB"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/AddAnotherPetButton"
+        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924" />
+
+    <Button
+        android:id="@+id/AddAnotherPetButton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#A3C5EB"
+        android:gravity="center"
+        android:text="+"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.926" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
