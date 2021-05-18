@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Healthy Paws</string>
+
+    <string-array name="AnimalTypes">
+        <item> Type of Animal </item>
+        <item> Dog </item>
+        <item> Cat </item>
+        <item> Hamster </item>
+        <item> Bird </item>
+    </string-array>
+
+    <string-array name="AnimalBreeds">
+        <item> Animal Breed </item>
+        <item> Labrador Retriever (Dog) </item>
+        <item> French Bulldog (Dog) </item>
+        <item> German Shepherd (Dog) </item>
+        <item> Persian (Cat) </item>
+        <item> Ragdoll (Cat) </item>
+        <item> Sphynx (Cat) </item>
+        <item> Syrian (Hamster) </item>
+        <item> Dwarf Campbell Russian (Hamster) </item>
+        <item> Dwarf Winter White Russian (Hamster) </item>
+        <item> Parakeet (Bird) </item>
+        <item> Amazon Parrot (Bird) </item>
+        <item> Canary (Bird) </item>
+    </string-array>
+
+    <string-array name="GenderTypes">
+        <item> Gender </item>
+        <item> Male </item>
+        <item> Female </item>
+    </string-array>
+</resources>
